@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 load_dotenv()  # Load from .env file
 
 # Telegram
-API_ID = int(os.getenv("API_ID", ""))
-API_HASH = os.getenv("API_HASH", "")
+API_ID = int(os.getenv("API_ID", "34251538"))
+API_HASH = os.getenv("API_HASH", "a66ccba3ac0b0ff130d3c7c2dfe9dc83")
 USER_SESSION = os.getenv("USER_SESSION", "") # Use Pyrogram V2 String Session 
 #if you don't have string Gen bot - use it my bot @SMD_StringBot
 
@@ -16,8 +16,8 @@ PORT = int(os.getenv("PORT", "8080"))
 URL = os.getenv("URL", "") # Heroku or Koyeb Or Render Base Url 
 
 # MongoDB
-DATABASE_URL = os.getenv("DATABASE_URL", "") #Mongodb Url 
-DATABASE_NAME = os.getenv("DATABASE_NAME", "") # example Cluster0
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://monkey:monkey123@cluster0.kpv8gkf.mongodb.net/?appName=Cluster0") #Mongodb Url 
+DATABASE_NAME = os.getenv("DATABASE_NAME", "Cluster0") # example Cluster0
 
 # TamilMV settings
 TMV_URL = os.getenv("TMV_URL", "https://www.1tamilmv.land/")
